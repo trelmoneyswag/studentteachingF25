@@ -6,7 +6,20 @@
     <title>Document</title>
 </head>
 <body>
-    <p> hello</p>
+    <script>
+        var password = "12345";
+        (function passcodeprotect() {
+           var passcode = prompt("Enter PassCode");
+           while (passcode !== password) {
+              alert("Incorrect PassCode");
+              return passcodeprotect();
+           }
+        }());
+        alert('Welcome to my Student Teaching Website');
+
+     </script>
+
+     <p> hello</p>
 
 </body>
 </html>
