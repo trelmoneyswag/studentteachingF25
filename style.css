@@ -12,7 +12,7 @@
 .menu{
   width: 90%;
   height:100px;
-  margin-left: 400px;
+  margin-left: 16%;
 
 }
 
@@ -82,16 +82,16 @@
 }
 
 .middle {
-    width: 0%;
+    width: 300px;
     border: saddlebrown;
     border-width: 5px;
     border-color: black;
-    overflow: scroll;
+  
   }
 
 .row {
-    margin-left: 50px;
-    margin-right: auto;
+    margin-left: 10%;
+    margin-right: 20%;
     display: block;
     border: 5px;
     border-color: black;
